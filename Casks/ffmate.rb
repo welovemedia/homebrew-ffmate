@@ -1,13 +1,13 @@
 cask "ffmate" do
-  version "v0.0.96"
+  version "v0.0.97"
 
   on_intel do
-    sha256 "6c209d9abd5b9de57d0b1043ea74a9aac17dfc3e988ee2e193f6d7811a0ab729"
+    sha256 "4d5da21eb524017a83d2606bd726f61915dc0dd0419701f84c27b3414ec4b27a"
     url "https://github.com/welovemedia/ffmate/releases/download/#{version}/ffmate_Darwin_x86_64.tar.gz"
   end
 
   on_arm do
-    sha256 "55ad2ffee25101fa9640bee4bf44036a0a0b399cbfeed71f80990598b6ac92e5"
+    sha256 "fdc467ab7e638b5e6ffac78d83fcfd53b2fc2f06c801c9e5e29eabb8a6c55c70"
     url "https://github.com/welovemedia/ffmate/releases/download/#{version}/ffmate_Darwin_arm64.tar.gz"
   end
 
