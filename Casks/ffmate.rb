@@ -2,7 +2,7 @@ cask "ffmate" do
   version "v0.0.95"
 
   on_intel do
-    sha256 "SHA256_FOR_AMD64_BINARY"
+    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
     url "https://github.com/welovemedia/ffmate/releases/download/#{version}/ffmate_Darwin_x86_64.tar.gz "
   end
 
