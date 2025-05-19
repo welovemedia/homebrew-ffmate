@@ -1,14 +1,14 @@
 cask "ffmate" do
-  version "0.0.95"
+  version "v0.0.95"
 
   on_intel do
     sha256 "SHA256_FOR_AMD64_BINARY"
-    url "https://github.com/welovemedia/ffmate/releases/download/v#{version}/ffmate_Darwin_x86_64.tar.gz "
+    url "https://github.com/welovemedia/ffmate/releases/download/#{version}/ffmate_Darwin_x86_64.tar.gz "
   end
 
   on_arm do
     sha256 "SHA256_FOR_ARM64_BINARY"
-    url "https://github.com/welovemedia/ffmate/releases/download/v#{version}/ffmate_Darwin_arm64.tar.gz "
+    url "https://github.com/welovemedia/ffmate/releases/download/#{version}/ffmate_Darwin_arm64.tar.gz "
   end
 
   name "ffmate"
