@@ -1,5 +1,5 @@
 cask "ffmate" do
-  version "2.0.1"
+  version "2.0.2"
 
   on_intel do
     sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
